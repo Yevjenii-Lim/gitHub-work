@@ -1,0 +1,8 @@
+.main {
+    display: flex;
+}
+.main__stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
