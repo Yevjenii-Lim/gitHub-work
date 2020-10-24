@@ -154,3 +154,152 @@
     outline: none;
     border-color:  #ffda00;
 }
+
+header {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15em;
+}
+
+.header__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.header__menu {
+    background-color: #ffda00;
+    text-align: center;
+    margin-top: 20px;
+    height: 15px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.header__title {
+    color: #ffda00;
+    font-size: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header__text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    position: relative;
+    bottom: 125px;
+}
+
+.header__button p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid #ffda00;
+    width: 115px;
+    border-radius: 25px;
+    padding: 15px 30px;
+    position: relative;
+    bottom: 100px;
+    cursor: pointer;
+}
+
+.section1 {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffda00;
+}
+
+.section1__text {
+    padding: 50px;
+    text-align: center;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 15em;
+}
+
+.section2__services1 {
+    flex-basis: 350px;
+}
+
+.section2__services2 {
+    flex-basis: 350px;
+}
+
+.section2__services3 {
+    flex-basis: 350px;
+}
+
+.section2__services1--image {
+    background-color: #ffda00;
+    text-align: center;
+    width: 50px;
+    padding: 10px;
+}
+
+.section2__services2--image {
+    background-color: #ffda00;
+    text-align: center;
+    width: 50px;
+    padding: 10px;
+}
+
+.section2__services3--image {
+    background-color: #ffda00;
+    text-align: center;
+    width: 50px;
+    padding: 10px;
+}
+
+.section2__services1--title {
+    color: #ffda00;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.section2__services2--title {
+    color: #ffda00;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.section2__services3--title {
+    color: #ffda00;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.section2__services1--text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section2__services2--text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section2__services3--text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section__button {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.section__button button {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid #ffda00;
+    background-color: white;
+    padding: 10px 35px;
+    border-radius: 25px;
+    cursor: pointer;
+}
